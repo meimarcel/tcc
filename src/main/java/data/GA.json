@@ -1,0 +1,32 @@
+[
+    {
+        "number_of_tests": 20,
+        "number_of_population" : 25,
+        "iteration_limit" : 100,
+        "function": "ARQ_STAGG_5",
+        "crossover_probability": 0.6,
+        "mutation_probability": 0.2,
+        "elitism": 1,
+        "function_minimum": 4.2269,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 20,
+        "number_of_population" : 25,
+        "iteration_limit" : 100,
+        "function": "ARQ_6_BUS",
+        "crossover_probability": 0.6,
+        "mutation_probability": 0.2,
+        "elitism": 1,
+        "function_minimum": 8.76139,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    }
+]

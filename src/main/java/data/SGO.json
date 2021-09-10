@@ -1,0 +1,38 @@
+[
+    {
+        "number_of_tests": 20,
+        "function": "ARQ_STAGG_5",
+        "player_number": 25,
+        "substitute_number": 2,
+        "kicks_limit": 100,
+        "inertia_weight": 0.191,
+        "cognitive_weight": 0.191,
+        "social_weight": 0.618,
+        "move_off_probability": 0.1,
+        "move_forward_after_move_off_probability": 0.05,
+        "substitution_probability": 0.1,
+        "non_uniformity_degree": 1,
+        "function_minimum": 4.2269,
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 20,
+        "function": "ARQ_6_BUS",
+        "player_number": 25,
+        "substitute_number": 2,
+        "kicks_limit": 100,
+        "inertia_weight": 0.191,
+        "cognitive_weight": 0.191,
+        "social_weight": 0.618,
+        "move_off_probability": 0.1,
+        "move_forward_after_move_off_probability": 0.05,
+        "substitution_probability": 0.1,
+        "non_uniformity_degree": 1,
+        "function_minimum": 8.76139,
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    }
+]
