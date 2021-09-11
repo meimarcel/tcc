@@ -4,7 +4,7 @@
         "pso_type": "GBEST",
         "function_minimum": 4.2269,
         "function": "ARQ_STAGG_5",
-        "particle_number": 25,
+        "particle_number": 20,
         "iteration_limit": 100,
         "inertia_weight": 0.3925,
         "cognitive_weight": 2.5586,
@@ -18,11 +18,39 @@
         "pso_type": "GBEST",
         "function_minimum": 8.76139,
         "function": "ARQ_6_BUS",
-        "particle_number": 25,
+        "particle_number": 30,
         "iteration_limit": 100,
         "inertia_weight": 0.3925,
         "cognitive_weight": 2.5586,
         "social_weight": 1.3358,
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 20,
+        "pso_type": "GBEST",
+        "function_minimum": 12.2727,
+        "function": "ARQ_IEEE_14_BUS",
+        "particle_number": 50,
+        "iteration_limit": 200,
+        "inertia_weight": 0.6571,
+        "cognitive_weight": 1.6319,
+        "social_weight": 0.6239,
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 20,
+        "pso_type": "GBEST",
+        "function_minimum": 15.9958,
+        "function": "ARQ_IEEE_30_BUS",
+        "particle_number": 50,
+        "iteration_limit": 200,
+        "inertia_weight": 0.6571,
+        "cognitive_weight": 1.6319,
+        "social_weight": 0.6239,
         "stop_condition_type": {
             "type":"ONLY_ITERATION"
         }

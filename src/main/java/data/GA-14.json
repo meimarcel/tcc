@@ -1,0 +1,137 @@
+[
+    {
+        "number_of_tests": 5,
+        "number_of_population" : 50,
+        "iteration_limit" : 500,
+        "function": "ARQ_IEEE_14_BUS",
+        "crossover_probability": 0.5,
+        "mutation_probability": 0.1,
+        "elitism": 5,
+        "function_minimum": 12.2727,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 5,
+        "number_of_population" : 50,
+        "iteration_limit" : 500,
+        "function": "ARQ_IEEE_14_BUS",
+        "crossover_probability": 0.5,
+        "mutation_probability": 0.2,
+        "elitism": 5,
+        "function_minimum": 12.2727,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 5,
+        "number_of_population" : 50,
+        "iteration_limit" : 500,
+        "function": "ARQ_IEEE_14_BUS",
+        "crossover_probability": 0.5,
+        "mutation_probability": 0.3,
+        "elitism": 5,
+        "function_minimum": 12.2727,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 5,
+        "number_of_population" : 50,
+        "iteration_limit" : 500,
+        "function": "ARQ_IEEE_14_BUS",
+        "crossover_probability": 0.6,
+        "mutation_probability": 0.1,
+        "elitism": 5,
+        "function_minimum": 12.2727,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 5,
+        "number_of_population" : 50,
+        "iteration_limit" : 500,
+        "function": "ARQ_IEEE_14_BUS",
+        "crossover_probability": 0.6,
+        "mutation_probability": 0.2,
+        "elitism": 5,
+        "function_minimum": 12.2727,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 5,
+        "number_of_population" : 50,
+        "iteration_limit" : 500,
+        "function": "ARQ_IEEE_14_BUS",
+        "crossover_probability": 0.6,
+        "mutation_probability": 0.3,
+        "elitism": 5,
+        "function_minimum": 12.2727,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 5,
+        "number_of_population" : 50,
+        "iteration_limit" : 500,
+        "function": "ARQ_IEEE_14_BUS",
+        "crossover_probability": 0.7,
+        "mutation_probability": 0.1,
+        "elitism": 5,
+        "function_minimum": 12.2727,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 5,
+        "number_of_population" : 50,
+        "iteration_limit" : 500,
+        "function": "ARQ_IEEE_14_BUS",
+        "crossover_probability": 0.7,
+        "mutation_probability": 0.2,
+        "elitism": 5,
+        "function_minimum": 12.2727,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 5,
+        "number_of_population" : 50,
+        "iteration_limit" : 500,
+        "function": "ARQ_IEEE_14_BUS",
+        "crossover_probability": 0.7,
+        "mutation_probability": 0.3,
+        "elitism": 5,
+        "function_minimum": 12.2727,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    }
+]

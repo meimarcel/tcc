@@ -151,6 +151,7 @@ public class MainSGO {
             int caseIndex = 1;
             long startTime = System.nanoTime();
             for(JsonElement testCase : jsonObj) {
+                random.setSeed(seedDefined);
                 JsonObject json = testCase.getAsJsonObject();
                 Function function = Utils.parseFunction(json.get("function").getAsString());
                 int numberOfTests = Utils.parseInt("number_of_tests", json.get("number_of_tests").getAsInt(), 1, 100000);

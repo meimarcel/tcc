@@ -1,11 +1,11 @@
 [
     {
         "number_of_tests": 20,
-        "number_of_population" : 25,
+        "number_of_population" : 20,
         "iteration_limit" : 100,
         "function": "ARQ_STAGG_5",
-        "crossover_probability": 0.6,
-        "mutation_probability": 0.2,
+        "crossover_probability": 0.7,
+        "mutation_probability": 0.1,
         "elitism": 1,
         "function_minimum": 4.2269,
         "crossover_type": "WEIGHTED_MEAN",
@@ -16,13 +16,43 @@
     },
     {
         "number_of_tests": 20,
-        "number_of_population" : 25,
+        "number_of_population" : 30,
         "iteration_limit" : 100,
         "function": "ARQ_6_BUS",
-        "crossover_probability": 0.6,
-        "mutation_probability": 0.2,
+        "crossover_probability": 0.5,
+        "mutation_probability": 0.3,
         "elitism": 1,
         "function_minimum": 8.76139,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 20,
+        "number_of_population" : 90,
+        "iteration_limit" : 200,
+        "function": "ARQ_IEEE_14_BUS",
+        "crossover_probability": 0.5,
+        "mutation_probability": 0.1,
+        "elitism": 1,
+        "function_minimum": 12.2727,
+        "crossover_type": "WEIGHTED_MEAN",
+        "selection_type" : "ROULETTE_WHEEL",
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 20,
+        "number_of_population" : 120,
+        "iteration_limit" : 200,
+        "function": "ARQ_IEEE_30_BUS",
+        "crossover_probability": 0.7,
+        "mutation_probability": 0.1,
+        "elitism": 1,
+        "function_minimum": 15.9958,
         "crossover_type": "WEIGHTED_MEAN",
         "selection_type" : "ROULETTE_WHEEL",
         "stop_condition_type": {

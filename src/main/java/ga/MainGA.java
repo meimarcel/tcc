@@ -136,6 +136,7 @@ public class MainGA {
             int caseIndex = 1;
             long startTime = System.nanoTime();
             for(JsonElement testCase : jsonObj) {
+                random.setSeed(seedDefined);
                 JsonObject json = testCase.getAsJsonObject();
                 
                 int numberOfTests = Utils.parseInt("number_of_tests", json.get("number_of_tests").getAsInt(), 1, 100000);

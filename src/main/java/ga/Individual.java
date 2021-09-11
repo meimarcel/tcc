@@ -60,6 +60,10 @@ public class Individual implements Comparable<Individual> {
     public void setGenes(double[] genes) {
         this.genes = genes;
     }
+    
+    public double getId() {
+        return this.id;
+    }
 
     @Override
     public boolean equals(Object obj) {
@@ -73,7 +77,7 @@ public class Individual implements Comparable<Individual> {
             return false;
         }
         final Individual other = (Individual) obj;
-        if (Double.doubleToLongBits(this.id) != Double.doubleToLongBits(other.id)) {
+        if (this.getId() != other.getId()) {
             return false;
         }
         return true;

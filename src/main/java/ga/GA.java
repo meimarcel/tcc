@@ -385,7 +385,7 @@ public class GA {
         double[] parent1Genes = parent1.getGenes();
         double[] parent2Genes = parent2.getGenes();
         
-        if(Math.random() <= this.crossoverProbability) {
+        if(rand.nextDouble() <= this.crossoverProbability) {
             if(this.crossoverType == CrossoverType.ARITHMETIC_MEAN) {
                 children = new Individual[1];
                         
@@ -396,7 +396,7 @@ public class GA {
                 children[0] = new Individual(this.function, genes, param, sep);
             
             } else if(this.crossoverType == CrossoverType.WEIGHTED_MEAN) {
-                double beta = Math.random();
+                double beta = rand.nextDouble();
                 double[] genes = new double[this.function.getNumberOfVariables()];
                 for(int i = 0; i < genes.length; ++i) {
                     genes[i] = (beta * parent1Genes[i]) + ((1 - beta) * parent2Genes[i]);
@@ -458,7 +458,7 @@ public class GA {
     private Individual mutate(Individual individual) {
         double[] genes = individual.getGenes();
         for(int i = 0; i < genes.length; ++i) {
-            if(Math.random() <= this.mutationProbability) {
+            if(rand.nextDouble() <= this.mutationProbability) {
                 genes[i] *= rand.nextGaussian();
             }
         }
@@ -499,7 +499,7 @@ public class GA {
                 population[i].setProbability((1 / (1 + population[i].getEval() - minIndividual.getEval())) / this.totalEval);
             }
         }
-        double probability = Math.random();
+        double probability = rand.nextDouble();
         int i = 0;
         double sum = population[i].getProbability();
         while(sum < probability) {

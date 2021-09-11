@@ -155,6 +155,7 @@ public class MainPSO {
             int caseIndex = 1;
             long startTime = System.nanoTime();
             for(JsonElement testCase : jsonObj) {
+                random.setSeed(seedDefined);
                 JsonObject json = testCase.getAsJsonObject();
                 
                 int neighborhoodSize = -1;

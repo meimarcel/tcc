@@ -2,7 +2,7 @@
     {
         "number_of_tests": 20,
         "function": "ARQ_STAGG_5",
-        "player_number": 25,
+        "player_number": 20,
         "substitute_number": 2,
         "kicks_limit": 100,
         "inertia_weight": 0.191,
@@ -20,7 +20,7 @@
     {
         "number_of_tests": 20,
         "function": "ARQ_6_BUS",
-        "player_number": 25,
+        "player_number": 30,
         "substitute_number": 2,
         "kicks_limit": 100,
         "inertia_weight": 0.191,
@@ -31,6 +31,42 @@
         "substitution_probability": 0.1,
         "non_uniformity_degree": 1,
         "function_minimum": 8.76139,
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 20,
+        "function": "ARQ_IEEE_14_BUS",
+        "player_number": 90,
+        "substitute_number": 2,
+        "kicks_limit": 200,
+        "inertia_weight": 0.191,
+        "cognitive_weight": 0.191,
+        "social_weight": 0.618,
+        "move_off_probability": 0.1,
+        "move_forward_after_move_off_probability": 0.05,
+        "substitution_probability": 0.1,
+        "non_uniformity_degree": 1,
+        "function_minimum": 12.2727,
+        "stop_condition_type": {
+            "type":"ONLY_ITERATION"
+        }
+    },
+    {
+        "number_of_tests": 20,
+        "function": "ARQ_IEEE_30_BUS",
+        "player_number": 120,
+        "substitute_number": 12,
+        "kicks_limit": 200,
+        "inertia_weight": 0.191,
+        "cognitive_weight": 0.191,
+        "social_weight": 0.618,
+        "move_off_probability": 0.1,
+        "move_forward_after_move_off_probability": 0.05,
+        "substitution_probability": 0.1,
+        "non_uniformity_degree": 1,
+        "function_minimum": 15.9958,
         "stop_condition_type": {
             "type":"ONLY_ITERATION"
         }
