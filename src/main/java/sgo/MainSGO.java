@@ -160,7 +160,7 @@ public class MainSGO {
                 int kicksLimit = Utils.parseInt("kicks_limit", json.get("kicks_limit").getAsInt(), 1, 900_000);
 
                 double inertiaWeight = Utils.parseDouble("inertia_weight", json.get("inertia_weight").getAsDouble(), 0, 100_000);
-                double cognitiveWeight = Utils.parseDouble("cognitive_weight", json.get("inertia_weight").getAsDouble(), 0, 100_000);
+                double cognitiveWeight = Utils.parseDouble("cognitive_weight", json.get("cognitive_weight").getAsDouble(), 0, 100_000);
                 double socialWeight = Utils.parseDouble("social_weight", json.get("social_weight").getAsDouble(), 0, 100_000);
                 double moveOffProbability = Utils.parseDouble("move_off_probability", json.get("move_off_probability").getAsDouble(), 0, 1);
                 double moveForwardAfterMoveOffProbability = Utils.parseDouble("move_forward_after_move_off_probability", json.get("move_forward_after_move_off_probability").getAsDouble(), 0, 1);

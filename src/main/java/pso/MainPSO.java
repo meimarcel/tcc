@@ -170,7 +170,7 @@ public class MainPSO {
                     neighborhoodSize = Utils.parseInt("neighborhood_size", json.get("neighborhood_size").getAsInt(), 1, particleNumber);
 
                 double inertiaWeight = Utils.parseDouble("inertia_weight", json.get("inertia_weight").getAsDouble(), 0, 100_000);
-                double cognitiveWeight = Utils.parseDouble("cognitive_weight", json.get("inertia_weight").getAsDouble(), 0, 100_000);
+                double cognitiveWeight = Utils.parseDouble("cognitive_weight", json.get("cognitive_weight").getAsDouble(), 0, 100_000);
                 double socialWeight = Utils.parseDouble("social_weight", json.get("social_weight").getAsDouble(), 0, 100_000);
                 
                 JsonObject stopConditionTypeJson = json.get("stop_condition_type").getAsJsonObject();
